@@ -31,12 +31,3 @@ SELECT * FROM EMP WHERE salary < 9500;
 -- RELATIONAL OPERATORS:
 SELECT * FROM EMP WHERE name LIKE "a%"; -- It will print all the names starting from A or a.
     
--- UPDATE:
-/*  Update is for updating record or records. */ 
-UPDATE EMP SET age = age-1 , salary = salary + 10000 WHERE name = "Akshit";
-
--- DELETE:
-DELETE FROM Loan; -- Works same as Truncate.
-DELETE FROM EMP WHERE name = "Amisha";
-
-    

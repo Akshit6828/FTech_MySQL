@@ -1,12 +1,16 @@
 -- Applying Refential intergity constrain
-drop table Loan;
+
 CREATE TABLE Loan (
     LoanId INT PRIMARY KEY,
     Amount FLOAT,
     DateOfBirth DATE,
     EmployeeId INT, foreign key(EmployeeId) REFERENCES EMP (EmpId)
 );
-desc Loan;
+
+DESC Loan;
+
+ALTER TABLE Loan RENAME COLUMN DateofBirth TO DateofLoan; -- Renaming the Exisiting Column Name;
+
 /**** It will put DOMAIN INTEGRITY:
 FOREIGN KEY column has those values which lies in primary key
 

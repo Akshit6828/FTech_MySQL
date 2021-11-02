@@ -13,7 +13,8 @@ CREATE TABLE EMP (
 ALTER TABLE EMP ADD EmpId INT;
 ALTER TABLE EMP ADD PRIMARY KEY(EmpId);
 ALTER TABLE EMP MODIFY Name varchar(40);
-desc EMP;
+
+DESC EMP; -- For Describing the Table in order to check all constrains.
 /*
 Alter:
 ---ADD---- :For altering the table structure.

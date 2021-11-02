@@ -26,7 +26,8 @@ SELECT Salary + Age FROM EMP;
 
 -- STRING Functions:
 
-SELECT CONCAT(name, "-- Mr.") FROM EMP;
+SELECT CONCAT(" Mr/Ms: ", name) FROM EMP; -- For Prepending the String.
+SELECT CONCAT( name, " Mr.") FROM EMP; -- For Appending the String.
 SELECT LOWER(name) FROM EMP;
 SELECT UPPER(name) FROM EMP;
 SELECT SOUNDEX(name) FROM EMP; /* Return a phonetic representation of a string. The phonetic represents the way the string will sound.*/
