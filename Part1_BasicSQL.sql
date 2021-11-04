@@ -16,7 +16,7 @@ ALTER TABLE EMP MODIFY Name varchar(40);
 
 DESC EMP; -- For Describing the Table in order to check all constrains.
 /*
-Alter:
+ALTER COMMAND FURTHUR CONTAINS FOLLOWING COMMANDS:
 ---ADD---- :For altering the table structure.
 ---Modify ----: For modify existing columns.
 */
