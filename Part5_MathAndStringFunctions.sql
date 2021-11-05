@@ -12,6 +12,7 @@ SELECT SQRT(age) FROM Emp;
 SELECT SQRT(age) "SQUARE ROOT AGE" FROM EMP;
 SELECT SQRT(age) AS "SQUARE ROOT AGE" FROM EMP;
 
+-- Column Synonym
 SELECT Name "Candidate Name", (Age+5) "Increased Age", (Salary + Salary*10/100) "Increased Salary" FROM EMP;
 
 SELECT AVG(Salary) FROM EMP;
@@ -21,6 +22,7 @@ SELECT MAX(Salary) FROM EMP;
 SELECT SUM(Salary) FROM EMP;
 SELECT MIN(Salary) FROM EMP;
 
+-- Example of Column Synonym.
 SELECT Salary + Age "Combined Salary and Age" FROM EMP;
 SELECT Salary + Age FROM EMP;
 
