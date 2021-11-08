@@ -49,3 +49,7 @@ DELETE FROM Loan; -- Works same as Truncate but only difference is for rolling b
 DELETE FROM EMP WHERE name = "Amisha";
 /* PLEASE NOTE ONCE A ROW IS DELETED, CANT IT BE TRACED BACK.??????????????????????*/ 
 INSERT INTO EMP VALUES( "Amisha" , 21, 95000,2); -- Reinserting Amisha Record.
+<<<<<<< HEAD:part3_DML.sql
+
+=======
+>>>>>>> 1f2540f270ed04541a9a17bf5c6198fa0eeea718:Part3_DML.sql
